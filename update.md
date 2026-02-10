@@ -1,0 +1,1 @@
+clear && echo 'Download starting...' && apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://raw.githubusercontent.com/ExpertAnonymous/PhoneInfoga/master/phoneinfoga.sh -q && clear && bash phoneinfoga.sh
